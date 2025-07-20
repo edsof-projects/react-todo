@@ -1,5 +1,4 @@
 import Botao from '../Botao/';
-import BotaoDel from '../BotaoDel';
 import './Todo.module.css';
 
 const Todo = ({ item }) => {
@@ -11,7 +10,7 @@ const Todo = ({ item }) => {
       </div>
       <div className="acoes">
         <Botao texto="Completar" />
-        <BotaoDel texto="X" />
+        <Botao texto="X" pequeno/>        
       </div>
     </div>
   );
