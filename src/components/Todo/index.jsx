@@ -9,8 +9,8 @@ const Todo = ({ item }) => {
         <p>({item.category})</p>
       </div>
       <div className="acoes">
-        <Botao texto="Completar" />
-        <Botao texto="X" pequeno/>        
+        <Botao texto="Completar" complete/>
+        <Botao texto="X" pequeno remove />        
       </div>
     </div>
   );

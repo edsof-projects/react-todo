@@ -1,12 +1,28 @@
-.botao{
-    width: 80px;
-    height: 18px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+
+.botao{   
+    background-color: #333974;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 2px;
+    cursor: pointer;
+    opacity: .8;
+    transition: 0.3s;
 }
 
 .pequeno {
-  width: 30px;
-  height: 18px;
-  padding: 0;
+  width: 30px;  
+}
+
+button:hover{
+    opacity: 1;
+}
+
+.complete{
+  background-color: #5cb85c;
+}
+
+.remove{
+  background-color: #d9534f;
 }
