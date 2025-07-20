@@ -37,16 +37,3 @@ li{
   flex-direction: column;
   gap: 2rem;
 }
-
-.content{
-  display: flex;
-  flex-direction: column;  
-}
-
-.content p{
-  margin-top: .5rem;
-}
-
-.acoes{
-  margin-top: .5rem;
-}
