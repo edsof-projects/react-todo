@@ -4,25 +4,21 @@
 }
 
 .content p{
-  margin-top: .5rem;
+  margin-top: .2rem;
 }
 
 .acoes{
-  margin-top: .5rem;
+  margin-bottom: 1.5rem;
+}
+
+.todo{
+  margin-top: 1.5rem;
 }
 
 h1{
   text-align: center;
 }
 
-h2{
-   margin-bottom: 10px;
-}
-
-p{
-  margin: 10px 0;
-}
-
 input{
-  box-sizing: border-box;
+  box-sizing: border-box;  
 }

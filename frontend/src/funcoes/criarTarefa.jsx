@@ -1,19 +1,22 @@
-//Função auxiliar que insere novos dados no arquivo JSON
 
-export async function criarTarefa() {
-  const response = await fetch('/dados.json');
+export async function criarTarefa({ value, category }) {
+  console.log(value, category)
+  const response = await fetch('http://localhost:3001/todos', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      text: value,
+      category: category,
+      isCompleted: false,
+    }),
+  });
+
   if (!response.ok) {
-    throw new Error('Erro ao carregar JSON');
+    throw new Error('Erro ao adicionar tarefa');
   }
-  const data = await response.json();
 
-  const addTodo = {         
-    id: Math.floor(Math.random() * 10000),
-    text : "correr",
-    category: "teste",
-    isCompleted: false
-  }
-  const UpdateData = [...data, addTodo]
-  console.log(UpdateData)
-  return UpdateData;
+  const result = await response.json();
+  console.log('Tarefa adicionada:', result);
 }
