@@ -2,8 +2,9 @@ import Botao from '../Botao'
 import styles from './TodoForm.module.css'
 
 function TodoForm() {
+  
   return (
-    <div className='todo-form'>
+    <div className={styles.todoform}>
       <h2>Criar Tarefa</h2>
       <form>
         <input type="text" placeholder='Digite o título'/>

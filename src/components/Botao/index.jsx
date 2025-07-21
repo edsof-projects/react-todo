@@ -8,7 +8,6 @@ const Botao = (props) => {
   ${props.remove ? styles.remove : ''}
 `;
 
-
   return (
     <button className={classes}>
       {props.texto}

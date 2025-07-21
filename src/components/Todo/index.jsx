@@ -1,9 +1,9 @@
 import Botao from '../Botao/';
-import './Todo.module.css';
+import styles from './Todo.module.css';
 
 const Todo = ({ item }) => {
   return (
-    <div className="todo">
+    <div className={styles.todo}>
       <div className="content">
         <p>{item.text}</p>
         <p>({item.category})</p>

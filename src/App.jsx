@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import './App.css';
 import Todo from './components/Todo';
-import { getDados } from './funcoes/getDados.jsx';
 import TodoForm from './components/TodoForm';
+import styles from './App.module.css';
+import { getDados } from './funcoes/getDados.jsx';
 
 function App() {
   const [dados, setDados] = useState([]);
@@ -14,7 +14,7 @@ function App() {
   }, []);
 
   return (
-    <div className="app">
+    <div className={styles.app}>
       <h1>Lista de Tarefas</h1>
       <div className="todo-list">
         {dados.map((item) => (
