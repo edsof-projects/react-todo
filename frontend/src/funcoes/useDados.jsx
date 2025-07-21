@@ -7,7 +7,6 @@ export function useDados() {
   const carregarDados = async () => {
     try {
       const data = await getDados();
-      console.log('Dados carregados:', data);
       setDados(data);
     } catch (error) {
       console.error(error);
