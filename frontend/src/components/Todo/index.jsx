@@ -5,8 +5,8 @@ const Todo = ({ item }) => {
   return (
     <div className={styles.todo}>
       <div className={styles.content}>
-        <p>{item.text}</p>
-        <p>({item.category})</p>
+        <p className={styles.texto}>{item.text}</p>
+        <p className={styles.categoria}>({item.category})</p>
       </div>
       <div className={styles.acoes}>
         <Botao texto="Completar" complete/>

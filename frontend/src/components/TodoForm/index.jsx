@@ -1,15 +1,17 @@
 import { useState } from 'react';
 import Botao from '../Botao';
 import styles from './TodoForm.module.css';
+import Upper from '../../funcoes/handleToUppercase'
+import handleToUppercase from '../../funcoes/handleToUppercase';
 
 function TodoForm({ criarTarefa }) {
   const [value, setValue] = useState("");
   const [category, setCategory] = useState("");
-
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!value || !category) return;
-
+    
     await criarTarefa({ value, category });
 
     setValue("");
@@ -24,7 +26,7 @@ function TodoForm({ criarTarefa }) {
           value={value}
           type="text"
           placeholder="Digite o título"
-          onChange={(e) => setValue(e.target.value)}
+          onChange={(e) => setValue(handleToUppercase(e.target.value))}
         />
         <select value={category} onChange={(e) => setCategory(e.target.value)}>
           <option value="">Selecione uma categoria</option>

@@ -1,6 +1,5 @@
 
-export async function criarTarefa({ value, category }) {
-  console.log(value, category)
+export async function criarTarefa({ value, category }) {  
   const response = await fetch('http://localhost:3001/todos', {
     method: 'POST',
     headers: {
@@ -18,5 +17,5 @@ export async function criarTarefa({ value, category }) {
   }
 
   const result = await response.json();
-  console.log('Tarefa adicionada:', result);
+  //console.log('Tarefa adicionada:', result);
 }

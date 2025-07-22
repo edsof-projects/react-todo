@@ -13,6 +13,14 @@
 
 .todo{
   margin-top: 1.5rem;
+  background-color: #fff;
+  border-bottom: 1px solid #555;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: .5rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1{
@@ -21,4 +29,9 @@ h1{
 
 input{
   box-sizing: border-box;  
+}
+
+.texto{
+  font-size: 1.3rem;
+  margin-bottom: .6rem;
 }
