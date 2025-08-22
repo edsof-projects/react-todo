@@ -1,15 +1,16 @@
 import { useState, useEffect } from 'react';
-import { getDados } from './getDados.jsx'; 
 
 export function useDados() {
   const [dados, setDados] = useState([]);
-  
+
   const carregarDados = async () => {
     try {
-      const data = await getDados();
-      setDados(data);
+      const response = await fetch('http://localhost:3001/todos');
+      const data = await response.json();
+      setDados(data.todos); // <-- aqui também
     } catch (error) {
-      console.error(error);
+      console.error('Erro ao carregar dados:', error);
+      setDados([]);
     }
   };
 

@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import Botao from '../Botao';
 import styles from './TodoForm.module.css';
-import Upper from '../../funcoes/handleToUppercase'
 import handleToUppercase from '../../funcoes/handleToUppercase';
 
 function TodoForm({ criarTarefa }) {

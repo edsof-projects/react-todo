@@ -1,140 +1,148 @@
-[
-  {
-    "id": 1,
-    "text": "Criar funcionalidade x no sistema",
-    "category": "Trabalho",
-    "isCompleted": false
-  },
-  {
-    "id": 2,
-    "text": "Ir pra academia",
-    "category": "Pessoal",
-    "isCompleted": false
-  },
-  {
-    "id": 3,
-    "text": "Estudar React",
-    "category": "Estudos",
-    "isCompleted": false
-  },
-  {
-    "text": "Correr na praia",
-    "category": "Pessoal",
-    "isCompleted": false,
-    "id": 4729
-  },
-  {
-    "text": "teste",
-    "category": "Trabalho",
-    "isCompleted": false,
-    "id": 2441
-  },
-  {
-    "text": "teste1",
-    "category": "Trabalho",
-    "isCompleted": false,
-    "id": 6532
-  },
-  {
-    "text": "teste2",
-    "category": "Trabalho",
-    "isCompleted": false,
-    "id": 5755
-  },
-  {
-    "text": "jogar bola",
-    "category": "Pessoal",
-    "isCompleted": false,
-    "id": 7358
-  },
-  {
-    "text": "ir no clube",
-    "category": "Pessoal",
-    "isCompleted": false,
-    "id": 1527
-  },
-  {
-    "text": "treinar banjo",
-    "category": "Pessoal",
-    "isCompleted": false,
-    "id": 1221
-  },
-  {
-    "text": "treinar cavaco",
-    "category": "Pessoal",
-    "isCompleted": false,
-    "id": 3221
-  },
-  {
-    "text": "molhar plantas",
-    "category": "Pessoal",
-    "isCompleted": false,
-    "id": 8267
-  },
-  {
-    "text": "estudar java",
-    "category": "Estudos",
-    "isCompleted": false,
-    "id": 2061
-  },
-  {
-    "text": "estudar react native",
-    "category": "Trabalho",
-    "isCompleted": false,
-    "id": 7502
-  },
-  {
-    "text": "estudar meu java",
-    "category": "Estudos",
-    "isCompleted": false,
-    "id": 239
-  },
-  {
-    "text": "hoje vai ",
-    "category": "Pessoal",
-    "isCompleted": false,
-    "id": 4228
-  },
-  {
-    "text": "um e dois",
-    "category": "Trabalho",
-    "isCompleted": false,
-    "id": 513
-  },
-  {
-    "text": "Hoje eu estou",
-    "category": "Pessoal",
-    "isCompleted": false,
-    "id": 9878
-  },
-  {
-    "text": "Nova tarefa",
-    "category": "Trabalho",
-    "isCompleted": false,
-    "id": 2047
-  },
-  {
-    "text": "Ultima chance",
-    "category": "Estudos",
-    "isCompleted": false,
-    "id": 78
-  },
-  {
-    "text": "Outra tarefa",
-    "category": "Pessoal",
-    "isCompleted": false,
-    "id": 3162
-  },
-  {
-    "text": "Mais uma",
-    "category": "Pessoal",
-    "isCompleted": false,
-    "id": 8341
-  },
-  {
-    "text": "Tarefas criadas com sucesso",
-    "category": "Estudos",
-    "isCompleted": false,
-    "id": 6269
-  }
-]
+{
+  "todos": [
+    {
+      "id": 1,
+      "text": "Criar funcionalidade x no sistema",
+      "category": "Trabalho",
+      "isCompleted": false
+    },
+    {
+      "id": 2,
+      "text": "Ir pra academia",
+      "category": "Pessoal",
+      "isCompleted": false
+    },
+    {
+      "id": 3,
+      "text": "Estudar React",
+      "category": "Estudos",
+      "isCompleted": false
+    },
+    {
+      "text": "Correr na praia",
+      "category": "Pessoal",
+      "isCompleted": false,
+      "id": 4729
+    },
+    {
+      "text": "teste",
+      "category": "Trabalho",
+      "isCompleted": false,
+      "id": 2441
+    },
+    {
+      "text": "teste1",
+      "category": "Trabalho",
+      "isCompleted": false,
+      "id": 6532
+    },
+    {
+      "text": "teste2",
+      "category": "Trabalho",
+      "isCompleted": false,
+      "id": 5755
+    },
+    {
+      "text": "jogar bola",
+      "category": "Pessoal",
+      "isCompleted": false,
+      "id": 7358
+    },
+    {
+      "text": "ir no clube",
+      "category": "Pessoal",
+      "isCompleted": false,
+      "id": 1527
+    },
+    {
+      "text": "treinar banjo",
+      "category": "Pessoal",
+      "isCompleted": false,
+      "id": 1221
+    },
+    {
+      "text": "treinar cavaco",
+      "category": "Pessoal",
+      "isCompleted": false,
+      "id": 3221
+    },
+    {
+      "text": "molhar plantas",
+      "category": "Pessoal",
+      "isCompleted": false,
+      "id": 8267
+    },
+    {
+      "text": "estudar java",
+      "category": "Estudos",
+      "isCompleted": false,
+      "id": 2061
+    },
+    {
+      "text": "estudar react native",
+      "category": "Trabalho",
+      "isCompleted": false,
+      "id": 7502
+    },
+    {
+      "text": "estudar meu java",
+      "category": "Estudos",
+      "isCompleted": false,
+      "id": 239
+    },
+    {
+      "text": "hoje vai ",
+      "category": "Pessoal",
+      "isCompleted": false,
+      "id": 4228
+    },
+    {
+      "text": "um e dois",
+      "category": "Trabalho",
+      "isCompleted": false,
+      "id": 513
+    },
+    {
+      "text": "Hoje eu estou",
+      "category": "Pessoal",
+      "isCompleted": false,
+      "id": 9878
+    },
+    {
+      "text": "Nova tarefa",
+      "category": "Trabalho",
+      "isCompleted": false,
+      "id": 2047
+    },
+    {
+      "text": "Ultima chance",
+      "category": "Estudos",
+      "isCompleted": false,
+      "id": 78
+    },
+    {
+      "text": "Outra tarefa",
+      "category": "Pessoal",
+      "isCompleted": false,
+      "id": 3162
+    },
+    {
+      "text": "Mais uma",
+      "category": "Pessoal",
+      "isCompleted": false,
+      "id": 8341
+    },
+    {
+      "text": "Tarefas criadas com sucesso",
+      "category": "Estudos",
+      "isCompleted": false,
+      "id": 6269
+    },
+    {
+      "text": "Teste",
+      "category": "Trabalho",
+      "isCompleted": false,
+      "id": 5889
+    }
+  ]
+}

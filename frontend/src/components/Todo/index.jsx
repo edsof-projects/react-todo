@@ -1,7 +1,8 @@
 import Botao from '../Botao/';
 import styles from './Todo.module.css';
 
-const Todo = ({ item }) => {
+const Todo = ({ item, onDelete }) => {
+ 
   return (
     <div className={styles.todo}>
       <div className={styles.content}>
@@ -10,7 +11,7 @@ const Todo = ({ item }) => {
       </div>
       <div className={styles.acoes}>
         <Botao texto="Completar" complete/>
-        <Botao texto="X" pequeno remove />        
+        <Botao texto="X" pequeno remove onClick={() => onDelete(item.id)}/>        
       </div>
     </div>
   );

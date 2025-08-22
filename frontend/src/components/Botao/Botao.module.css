@@ -9,6 +9,7 @@
     cursor: pointer;
     opacity: .8;
     transition: 0.3s;
+    font-weight: 600;
 }
 
 .pequeno {
@@ -20,9 +21,11 @@ button:hover{
 }
 
 .complete{
-  background-color: #5cb85c;
+  background-color: #0a6c0a;
+  border: 1.5px solid  #077007;
 }
 
 .remove{
-  background-color: #d9534f;
+  background-color: #c3150f;
+  border: 1.5px solid #b00e09;
 }

@@ -9,7 +9,7 @@ const Botao = (props) => {
 `;
 
   return (
-    <button className={classes}>
+    <button className={classes} onClick={props.onClick}>
       {props.texto}
     </button>
   );
